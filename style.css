@@ -1,0 +1,46 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: #EEEEEE;
+    overflow-x: hidden;
+}
+h2{
+    margin: 0;
+    margin-right: 16px;
+}
+.dropTitleContainer{
+    display: flex;
+    padding: 8px 16px;
+    cursor: pointer;
+    user-select: none;
+}
+.mainTitle{
+    margin: 16px 32px;
+}
+.closeGuide{
+    display: none;
+}
+.openGuide{
+    display: flex;
+    flex-direction: column;
+}
+#dropBox{
+    margin: 8px 32px;
+    background-color: #111111;
+    padding: 8px;
+    border-radius: 4px;
+}
+img{
+    max-width: 100%;
+    margin: 4px;
+}
+.description{
+    margin: 4px;
+}
