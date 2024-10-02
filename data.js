@@ -33,7 +33,7 @@ export const guideData = [
         {
             title: 'Drop down options för tabel eller liknande',
             guide: [
-                {type: 'text', data: 'Väli en kolumn där du vill ha dropdown valet, sen Data tab -> data Validation -> data Validation'},
+                {type: 'text', data: 'Väli en kolumn tär du vill ha dropdown valet, sen Data tab -> data Validation -> data Validation'},
             ]
         },
         {
@@ -57,7 +57,7 @@ export const guideData = [
         {
             title: 'Räkna ihop värde med if och sum',
             guide: [
-                {type: 'text', data: '=IF(parameter="Nej";pris*product_mängd;(pris*product_mängd)*0,9) deta är om sen har kampanj med 10% off'},
+                {type: 'text', data: '=IF(parameter="Nej";pris*product_mängd;(pris*product_mängd)*0,9) deta är om den har kampanj med 10% off'},
             ]
         },
         {
@@ -69,7 +69,7 @@ export const guideData = [
         {
             title: 'Countif för att räkna hur manga som passar med en condition',
             guide: [
-                {type: 'text', data: `=COUNTIF(A2:A10;"Ja") kan även användar =COUNTIFS med flrea citeria
+                {type: 'text', data: `=COUNTIF(A2:A10;"Ja") kan även användar =COUNTIFS med flera criteria
 	=COUNTIFS(E7:E17;"Nej";D7:D17;">100")
 `},
             ]
@@ -101,7 +101,7 @@ export const guideData = [
         {
             title: 'Combo chart',
             guide: [
-                {type: 'text', data: 'Om du har en vnalig chart, föst se till att du har 2 seris och data, höger clicka på chartet -> select data och lägg till en till I legen axis see till att namet är titlen och value är heilla columnen. Sen höger clicka på chartet  tryck på chart och gå in på “chart deign” -> change chart type -> combo.     (unit är hu mycket det ändras per number och bounds vad det grå från och till values)'},
+                {type: 'text', data: 'Om du har en vnalig chart, föst se till att du har 2 series och data, höger clicka på chartet -> select data och lägg till en till I legen axis see till att namet är titlen och value är heilla columnen. Sen höger clicka på chartet  tryck på chart och gå in på “chart deign” -> change chart type -> combo.     (unit är hu mycket det ändras per number och bounds vad det grå från och till values)'},
             ]
         },
         {
